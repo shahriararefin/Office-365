@@ -1,0 +1,23 @@
+Office 365
+
+This method was shared by Massgravel, and I've made a PowerShell script to automate it for you.
+
+• If you already have Office installed, uninstall it first. Afterwards, use this OfficeScrubber to clean any traces. Choose [1] or [R], as you please.
+
+• Restart your computer before the next process.
+
+• Run this code in PowerShell:
+Code:
+
+irm https://naeembolchhi.github.io/Get-Office-365/GO365.ps1  | iex
+
+This will automatically install Office 365 on your computer. Duration depends on Internet speed.
+
+• Now run this code in PowerShell:
+Code:
+
+irm https://get.activated.win  | iex
+
+• Select [2] to activate Office. And you're done.
+
+More details on GitHub — https://github.com/NaeemBolchhi/Get-Office-365
